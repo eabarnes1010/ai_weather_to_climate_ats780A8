@@ -1,0 +1,62 @@
+# Our stuff
+*.pickle
+*.pklz
+*.bak
+#*.pdf
+#.nc
+*.csv
+
+*.bz2
+#*.csv
+#*.h5
+#*.json
+*.pt
+
+.idea/
+
+sandbox.ipynb
+saved/*
+saved/
+model_diagnostics/
+shapefiles/
+models/
+figures/
+saved_predictions/
+predictions/
+saved_metrics/
+docs/
+archive/
+data/
+data_diagnostics/
+.vscode/
+#shapefiles/
+
+# Horrible Apple stuff
+# find . -name "Icon?" -print0 | xargs -0 rm -rf
+Icon*
+icon*
+.DS_Store
+.DS_*
+Icon
+*Icon*
+*Icon?*
+Icon?
+refs/Icon?
+*/Icon?
+*/*/Icon?
+*/*/*/Icon?
+*/*/*/*/Icon?
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Unit test / coverage reports
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.pyc
+.pyo
+
+# Google docs
+*.gslides
