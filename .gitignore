@@ -3,14 +3,17 @@
 *.pklz
 *.bak
 #*.pdf
-#.nc
+*.nc
 *.csv
+*.gdoc
 
 *.bz2
 #*.csv
 #*.h5
 #*.json
 *.pt
+
+ace/
 
 .idea/
 
