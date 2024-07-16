@@ -33,6 +33,8 @@ data/
 data_diagnostics/
 .vscode/
 #shapefiles/
+ai2ace/output/config.yaml
+ai2ace/output/inference_out.log
 
 # Horrible Apple stuff
 # find . -name "Icon?" -print0 | xargs -0 rm -rf
