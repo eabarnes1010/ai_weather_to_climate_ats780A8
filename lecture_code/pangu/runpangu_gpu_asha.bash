@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#SBATCH --partition=sch_all
+#SBATCH --partition=<your partition>
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:1
 
 #SBATCH --job-name=pangu-run
-#SBATCH --mail-user=rschumac@colostate.edu
+#SBATCH --mail-user=<your email @colostate.edu>
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=END 
 #SBATCH --output=pangu_out.o%j
@@ -15,10 +15,10 @@
 source activate pangu_jul2024
 module load cuda/11.6
 
-export MPLCONFIGDIR=/scratch/rschumac/.config/matplotlib
+#export MPLCONFIGDIR=/scratch/rschumac/.config/matplotlib
 
 ### rundir
-cd /scratch/rschumac/pangu
+cd <your path here> 
 
 export init=2024072100
 export input_data_dir="input_data_rt"
