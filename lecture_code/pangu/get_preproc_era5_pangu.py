@@ -25,7 +25,7 @@ print(eratime)
 # ### get upper-level vars
 
 URL = 'https://cds-beta.climate.copernicus.eu/api'
-KEY = '952952fc-3d88-4656-86b3-17c13a7c581c'
+KEY = 'your-key-here'
 
 client = cdsapi.Client(url=URL, key=KEY)
 
