@@ -13,6 +13,9 @@
 #*.json
 *.pt
 
+*.npy
+*.zarr
+
 ace/
 
 .idea/
