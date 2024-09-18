@@ -3,7 +3,7 @@
 *.pklz
 *.bak
 #*.pdf
-*.nc
+# *.nc
 *.csv
 *.gdoc
 
@@ -32,12 +32,16 @@ predictions/
 saved_metrics/
 docs/
 archive/
-data/
+# data/
 data_diagnostics/
 .vscode/
 #shapefiles/
 ai2ace/output/config.yaml
 ai2ace/output/inference_out.log
+ai2ace/data/
+ai2ace/output/
+ai2ace/initialization/
+
 
 # Horrible Apple stuff
 # find . -name "Icon?" -print0 | xargs -0 rm -rf
