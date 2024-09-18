@@ -13,7 +13,8 @@
 #*.json
 *.pt
 
-*.npy
+pangu/input_data/*.npy
+pangu/output_data/*.npy
 *.zarr
 *.onnx
 
