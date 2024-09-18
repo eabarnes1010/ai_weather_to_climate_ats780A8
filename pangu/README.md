@@ -1,4 +1,4 @@
-# Code and conda environment setup
+# Pangu: code and conda environment setup
 
 <https://github.com/198808xc/Pangu-Weather>
 
