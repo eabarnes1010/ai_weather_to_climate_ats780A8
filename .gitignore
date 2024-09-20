@@ -14,9 +14,13 @@
 *.pt
 
 pangu/input_data/*.npy
-pangu/output_data/*.npy
+pangu/input_data/*/*.npy
+pangu/output_data/*/*.npy
 *.zarr
 *.onnx
+
+*.png
+
 
 ace/
 
