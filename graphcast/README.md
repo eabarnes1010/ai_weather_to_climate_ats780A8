@@ -6,7 +6,7 @@
 
 ### Code Base
 
-If you want to get the pangu code directly from GitHub:
+If you want to get the graphcast code directly from GitHub:
 
 ```bash
 git clone https://github.com/google-deepmind/graphcast.git
