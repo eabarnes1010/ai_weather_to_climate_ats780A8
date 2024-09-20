@@ -26,6 +26,6 @@ conda install zarr gcsfs
 conda install cmake
 
 SYSTEM_VERSION_COMPAT=0 pip install --no-cache-dir "onnxruntime>=1.14.1"
-pip install onnx numpy xarray cdsapi matplotlib
-conda install -c conda-forge cfgrib
+pip install onnx numpy xarray cdsapi matplotlib ipykernel metpy
+conda install -c conda-forge cfgrib cartopy
 ```
