@@ -22,10 +22,11 @@ Create conda environment
 conda create --name pangu python=3.12.4
 conda activate pangu
 
-conda install zarr gcsfs
+conda install -c conda-forge zarr gcsfs
 conda install cmake
 
 SYSTEM_VERSION_COMPAT=0 pip install --no-cache-dir "onnxruntime>=1.14.1"
 pip install onnx numpy xarray cdsapi matplotlib ipykernel metpy
 conda install -c conda-forge cfgrib cartopy
+conda install dask
 ```
