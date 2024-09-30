@@ -25,4 +25,5 @@ pip install --upgrade google-cloud-storage
 pip install ipywidgets
 pip install cftime
 pip install zarr gcsfs
+conda install -c conda-forge cfgrib
 ```
