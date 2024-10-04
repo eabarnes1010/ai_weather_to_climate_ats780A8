@@ -47,6 +47,8 @@ ai2ace/output/inference_out.log
 ai2ace/data/
 ai2ace/output/
 ai2ace/initialization/
+ace_ckpt.tar
+ai2ace/forcing/*.nc
 
 
 # Horrible Apple stuff
